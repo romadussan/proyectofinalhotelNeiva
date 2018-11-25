@@ -30,8 +30,7 @@ class login extends CI_Controller {
 				'USUARIO'=> $result->usuario,
 				'CONTRASENA'=> $result->contrasena,
 				'ROL'=> $result->nombre_rol,
-				'is_logged_in'=>TRUE ,
-			);
+				'is_logged_in'=>TRUE 	);
 			$this->session->set_userdata($session);
 
 			echo $result->nombre_rol;

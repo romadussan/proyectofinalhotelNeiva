@@ -4,7 +4,7 @@ class model_reserva extends CI_Model
 {
      function __construct()
      {
-          parent::__construct();
+                parent::__construct();
      }
 
      public function registrarreserva($usuario,$password,$fechareserva,$fechafinal,$numeropersonas,$numerocamas,$documento){
@@ -31,7 +31,7 @@ class model_reserva extends CI_Model
 
     function modifiRe($usuario, $contraseña, $id){
         $this->db->where('id',$id);
-        $this->db->update('usuarios',array('usuario'=>$usuario,'password'=>$password,'fechareserva'=>$fechareserva,'fechafinal'=>$fechafinal,'numeropersonas'=>$numeropersonas,'numerocamas'=>$numerocamas,'documento'=>$documento)); 
+        $this->db->update('usuarios',array('usuario'=>$usuario,'password'=>$password,'fechareserva'=>$fechareserva,'fechafinal'=>$fechafinal,'numeropersonas'=>$numeropersonas,'numerocamas'=>$numerocamas,'documento'=>$documento));
     }
 
 }

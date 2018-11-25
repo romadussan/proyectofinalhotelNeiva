@@ -11,7 +11,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>home admin</h1>
+    <h1>Administrador</h1>
 
     <a href="#" class="btn btn-primary"
       data-toggle="modal" data-target="#mAgregar">Agregar</a>
